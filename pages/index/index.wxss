@@ -1,0 +1,38 @@
+/**index.wxss**/
+.item{
+  display: flex;
+  margin: 10rpx;
+  background-color: #fff;
+  height: 210rpx;
+  border-radius: 10rpx;
+}
+.img{
+  width: 180rpx;
+  height: 140rpx;
+  margin: 20rpx;
+}
+.desc{
+  margin: 20rpx 0 ;
+}
+.title{
+  width: 500rpx;
+  font-weight: bold;
+  font-size: 32rpx;
+  overflow: hidden;
+  margin: 5rpx;
+}
+.money{
+  font-size: 24rpx;
+  color: #888;
+  margin-top: 10rpx;
+}
+.tag{
+  background-color: #fe9700;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  color: #fff;
+  margin-top: 10rpx;
+}
+
+
+
+

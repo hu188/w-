@@ -1,0 +1,9 @@
+/* pages/address/addAddress/index.wxss */
+
+.save-address-btn{
+  width: 600rpx;
+  background-color: #F29200;
+  color: #ffffff;
+  margin-top: 20rpx;
+  border-radius: 30rpx;
+}

@@ -1,0 +1,6 @@
+<i-panel >
+    <i-input value="{{ userName }}" type='text' title="收货人"  placeholder="名字" />
+    <i-input value="{{ userPhone }}" type="number" title="联系电话" placeholder="请输入手机号" />
+    <i-input value="{{ address }}" type="textarea" title="详细地址" placeholder="请输入详细地址(最多100字)" maxlength="100" />
+</i-panel>
+ <button  class="save-address-btn" bindtap="addAddress">保存地址</button>

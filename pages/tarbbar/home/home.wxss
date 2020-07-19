@@ -1,0 +1,129 @@
+/* pages/home/home.wxss */
+@import "/template/login/index.wxss";
+.page-top {
+  height: 380rpx;
+}
+.page-user-info{
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  margin-top: 90rpx;
+}
+
+.user-bac-img{
+  width: 750rpx;
+  height: 380rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.avatarUrl-image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  /* border: 1px solid #eee; */
+}
+
+.user-name {
+
+  font-size: 34rpx;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+.page-order-body{
+  width: 700rpx;
+  margin-left: 25rpx;
+  border-radius: 10rpx;
+  box-shadow:#999 0px 0px 10px;
+  height: 250rpx;
+background-color: #fff;
+
+}
+.page-order-opt{
+  position: absolute;
+  z-index: 888;
+  top:280rpx
+}
+.page-order {
+  height: 140rpx;
+  display: flex;
+  padding: 10px 0;
+}
+
+.page-order-title {
+  font-size: 28rpx;
+  color: #555;
+  font-weight: bold;
+  padding: 20rpx;
+  border-bottom: 1px solid #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+}
+.pay-order-nar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+  width: 20%;
+}
+
+.order-img{
+  width:50rpx;
+  height: 50rpx;
+}
+.page-opt {
+  width: 700rpx;
+  margin-left: 25rpx;
+  border-radius: 10rpx;
+  box-shadow:#bbb 0px 0px 10px;
+  height: 306rpx;
+  margin-top: 50rpx;
+  background-color: #fff;
+
+}
+
+.opt-item {
+  font-size: 15px;
+  color: #555;
+  border-bottom: 1px solid #f6f6f6;
+  height: 100rpx;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.iconfonttext{
+  margin-right: 15px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.to-opt-img {
+  position: absolute;
+  right: 30rpx;
+}
+
+.to-num {
+  color: #aaa;
+  position: absolute;
+  right: 25px;
+  font-size: 12px;
+}
+.demo-badge-alone{
+  background-color: #aaa;
+}
+.img{
+  width:20px;
+  height:20px;
+
+}
+.opt-item-text{
+  width:560rpx;
+  margin-left: 20rpx;
+}

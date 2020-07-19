@@ -1,0 +1,54 @@
+<!--pages/express/index.wxml-->
+<cu-custom bgColor="bg-gradual-orange" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">快递帮</view>
+</cu-custom>
+  <view class="page-body">
+<form catchsubmit="payOrder">
+	
+	<view class="cu-form-group">
+		<view class="title">取快件码</view>
+		<input placeholder="请输入取件码"></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">取件地址</view>
+		<input placeholder="请输入取件地址"></input>
+    <text class="cuIcon-locationfill text-orange"></text>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">收件地址</view>
+		<input placeholder="请输入收件地址"></input>
+		<text class="cuIcon-locationfill text-orange"></text>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">手机号码</view>
+		<input placeholder="请输入手机号码" type="number"></input>
+		<view class="cu-capsule radius">
+			<view class="cu-tag bg-blue">
+				+86
+			</view>
+			<view class="cu-tag line-blue">
+				中国大陆
+			</view>
+		</view>
+	</view>
+	<view class="cu-form-group margin-top">
+		<view class="title">立即送达</view>
+		<switch></switch>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">预约时间</view>
+		<picker mode="time" value="{{time}}" start="09:00" end="21:00" bindchange="TimeChange">
+			<view class="picker">
+				{{time}}
+			</view>
+		</picker>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">代取费用</view>
+		<view class="title">￥5</view>
+	</view>
+	
+	  <button class="pay-express" type="primary" form-type="submit">支付下单</button>
+</form>
+</view>

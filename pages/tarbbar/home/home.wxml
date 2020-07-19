@@ -1,0 +1,70 @@
+<!--pages/home/home.wxml-->
+<import src="/template/login/index.wxml" />
+<template is="apifmLogin" data="{{wxlogin: wxlogin}}" />
+
+<view class='page-top' bindtap='toUserInfo'>
+	<image src="/images/user-bac.png" class="user-bac-img"></image>
+	<view class="page-user-info">
+		<image src='{{avatarUrl}}' class="avatarUrl-image"></image>
+		<view class='user-name'>
+			{{nickName}}
+			<view style="font-size:24rpx;">美好的一天</view>
+		</view>
+	</view>
+
+</view>
+<view class="page-order-opt">
+
+	<!-- 订单 -->
+	<view class="page-order-body">
+		<view class='page-order-title'>
+			<view>订单管理</view>
+			<text >查看全部</text>
+		</view>
+		<view class='page-order'>
+			<view bindtap='toOrderItem' data-type="3" class="pay-order-nar">
+				<image src="/images/no-pay.png" class="order-img"></image>
+				待支付
+			</view>
+			<view bindtap='toOrderItem' data-type="3" class="pay-order-nar">
+				<i-badge count="2">
+					<image src="/images/no-shipments.png" class="order-img"></image>
+				</i-badge>
+				待接单
+			</view>
+			<view bindtap='toOrderItem' data-type="3" class="pay-order-nar">
+				<i-badge count="2">
+					<image src="/images/shipments.png" class="order-img"></image>
+				</i-badge>
+				已接单
+			</view>
+			<view bindtap='toOrderItem' data-type="3" class="pay-order-nar">
+				<image src="/images/receivingtake.png" class="order-img"></image>
+				已完成
+			</view>
+			<view bindtap='toOrderItem' data-type="3" class="pay-order-nar">
+				<image src="/images/refund.png" class="order-img"></image>
+				退款
+			</view>
+		</view>
+	</view>
+	<!-- 菜单 -->
+	<view class='page-opt'>
+		<view class='opt-item' bindtap='toAddress'>
+			<image src="/images/address.png" class="img"></image>
+			<text  class="opt-item-text">地址管理</text>
+			<image src="/images/left.png" class="img"></image>
+		</view>
+		<view class='opt-item' bindtap='toExchangeRec'>
+			<image src="/images/coupon.png" class="img"></image>
+			<text  class="opt-item-text">我的优惠券</text>
+			<image src="/images/left.png" class="img"></image>
+		</view>
+		<view class='opt-item' bindtap='toFind'>
+			<image src="/images/service.png" class="img"></image>
+			<text class="opt-item-text">联系我们</text>
+			<image src="/images/left.png" class="img"></image>
+		</view>
+	</view>
+</view>
+<!-- <official-account bindload="bindload" binderror="binderror"></official-account> -->

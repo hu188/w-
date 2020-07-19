@@ -1,0 +1,32 @@
+.top {
+  width: 100%;
+  height: 240px;
+  background: #fe9700;
+  position: relative;
+}
+
+.gif-wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0rpx;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;
+  height: 80rpx;
+}
+.module-box{
+  width: 330rpx;
+  height: 290rpx;
+  margin-right: 20rpx;
+  box-shadow:#999 0px 0px 10px;
+background-color: #fff;
+  /* background-color: green; */
+}
+.type-name{
+  text-align: center;
+  width: 330rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}

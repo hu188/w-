@@ -1,0 +1,11 @@
+<view wx:for="{{array}}" wx:key="aa">
+	<view class="item" bindtap="seeDetail" id="0">
+		<image src="/images/1.jpg" class="img"></image>
+		<view class="desc">
+			<view class="title">{{item.title}} </view>
+      <text class="tag"> {{"人气第1"}} </text>
+			<view class="money">配送：￥3</view>
+      <view class="money">{{item.liulan}}   {{item.pinglun}}</view>
+		</view>
+	</view>
+</view>

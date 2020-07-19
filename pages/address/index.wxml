@@ -1,0 +1,5 @@
+<view class="no-address-box">
+<image src="/image/other/no-address.png" class="no-address"></image>
+<view>暂无地址</view>
+ <button  class="add-address-btn" bindtap="addAddress">添加地址</button>
+</view>

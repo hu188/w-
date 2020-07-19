@@ -1,0 +1,22 @@
+/* pages/address/index.wxss */
+.no-address-box{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28rpx;
+}
+.no-address{
+width: 200rpx;
+height: 200rpx;
+margin-bottom: 15rpx;
+margin-top: 20vh;
+margin-bottom: 15rpx;
+}
+.add-address-btn{
+  width: 500rpx;
+  background-color: #F29200;
+  color: #ffffff;
+  margin-top: 20vh;
+}

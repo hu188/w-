@@ -1,0 +1,10 @@
+/* pages/express/index.wxss */
+.page-body{
+  width: 100vw;
+  height: 100vh;
+}
+.pay-express{
+  color: #fff;
+  background-color: #fe9700;
+  margin-top:100rpx;
+}
